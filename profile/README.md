@@ -44,7 +44,7 @@ Local-Store: A Local-Store registry returns the exact same data as an HTTPS regi
 ``If you're wanting to generate your own HTTPS/Local-Store responses and don't hate yourself, use a library.``
 
 ## DNS Registry Explaination
-<img src="https://github.com/region-suite/about/assets/91714073/f5a890b1-52bf-40ea-9788-f6a0a8272f55" height="350"/>
+<img src="https://github.com/region-system/.github/assets/91714073/9283f467-6ce8-4401-994a-5ed4d220f7c5" height="350"/>
 
 *Graphic design is my passion...as you can see /j*
 
@@ -53,6 +53,7 @@ For user authentication, you can replace the "capability" field value with the n
 
 For example, you could have a web portal at "sales.staff.example.com". When a user is successfully authenticated (using a login page at "auth.example.com"), the client uploads a public key, your authentication service can add a new entry to the registry with that public-key, something like:
 ```
+
 {
   "id": "[userid]",
   "capability": "staff_members",
